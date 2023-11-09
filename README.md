@@ -56,8 +56,9 @@ I have updated the application to use Spring Boot, transforming it into a micros
 1. Copy the "data.json" file to the path you want, such as: /tmp/data.json
 1.1 Configurable within the application.yml
 1.2 Because we should use the data file out of the application package, so that the data.json file can be configurable without the need of rebuild the application.
-2. Just run the jar then the microservices web application will be launched.
-2.2. Example command: "java -jar EqPancreditDeveloperTest-3.jar"
+2. Locate the path of "EqPancreditDeveloperTest-3.jar" application package and copy the "application.yml" to the outside path.
+3. Just run the jar then the microservices web application will be launched.
+3.1. Example command: "java -jar EqPancreditDeveloperTest-3.jar --spring.config.location=application.yml"
 
 ## Simple APIs Testing ##
 ### GET ###
