@@ -61,5 +61,6 @@ I have updated the application to use Spring Boot, transforming it into a micros
 
 ## Simple APIs Testing ##
 
- 
+![My Image](src/main/resources/images/get.PNG)
+
 
