@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.pancredit</groupId>
 	<artifactId>EqPancreditDeveloperTest</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>3</version>
 	<packaging>jar</packaging>
 	<name>EQ Pancredit Developer Test</name>
 	<description>EQ Pancredit Developer Test</description>

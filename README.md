@@ -42,3 +42,24 @@ Ideally at the end of this process your solution will be structured, readable an
 Please ask for help if you get stuck.
 
 Good luck and try to have fun.
+
+
+## Lucas ##
+I have updated the application to use Spring Boot, transforming it into a microservices application for several reasons:
+
+- There is no need to set up an application server like Tomcat for this test.
+- Spring Boot comes with an embedded Tomcat server, allowing the JAR to bind to a port and run as an API service directly. This approach is more flexible as it eliminates the need for deployment on an application server.
+- It saves on the cost of application server licenses.
+- The spring-boot-starter-tomcat library is included in the pom.xml. If there is ever a need to build a WAR file for deployment to an application server, simply changing <packaging>jar</packaging> to <packaging>war</packaging> in the pom.xml will suffice.
+
+## How to play? ##
+1. Copy the "data.json" file to the path you want, such as: /tmp/data.json
+1.1 Configurable within the application.yml
+1.2 Because we should use the data file out of the application package, so that the data.json file can be configurable without the need of rebuild the application.
+2. Just run the jar then the microservices web application will be launched.
+2.2. Example command: "java -jar EqPancreditDeveloperTest-3.jar"
+
+## Simple APIs Testing ##
+
+ 
+
