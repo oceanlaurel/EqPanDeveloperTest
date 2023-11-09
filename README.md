@@ -60,7 +60,25 @@ I have updated the application to use Spring Boot, transforming it into a micros
 2.2. Example command: "java -jar EqPancreditDeveloperTest-3.jar"
 
 ## Simple APIs Testing ##
-
+### GET ###
 ![My Image](src/main/resources/images/get.PNG)
 
+### POST ###
+![My Image](src/main/resources/images/post.PNG)
 
+### PUT ###
+![My Image](src/main/resources/images/put.PNG)
+
+### DELETE ###
+![My Image](src/main/resources/images/delete.PNG)
+
+## Built-in Swagger ##
+Sample URL to access Swagger-UI: "http://localhost:18080/EqPancreditDeveloperTest/swagger-ui/index.html"
+
+![My Image](src/main/resources/images/swagger01.PNG)
+
+![My Image](src/main/resources/images/swagger02.PNG)
+
+## Port is configurable ##
+1. Not sure whether your computer having any process using port 8080 or not, thus I use port 18080 for this test.
+2. And it is configurable within the application.yml 
